@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Runner Tracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="appwidget_text">Record Track</string>
+    <string name="add_widget">Add widget</string>
+    <string name="distance_run">Distance Run</string>
+    <string name="step">Total Steps</string>
+    <string name="avg_speed">Average Speed</string>
+    <string name="duration">Duration</string>
+    <string name="label_date">Select Date</string>
+    <string name="title2">View Tracks</string>
+    <string name="direction">Click on a the specific track to show the details.</string>
+    <string name="ask">Record track again?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="start">Start Record Track</string>
+    <string name="label_widget">Record Your Track Now!</string>
+    <string name="action_language">Language</string>
+    <string name="home">Home</string>
+    <string name="track">Track</string>
+    <string name="nameTrack">Recorded Track</string>
+    <string name="dialog">Track Successfully Recorded!</string>
+    <string name="ok">OK</string>
+</resources>

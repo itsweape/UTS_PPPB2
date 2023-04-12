@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_fragment_label">Fragement Pertama</string>
+    <string name="second_fragment_label">Fragment Kedua</string>
+    <string name="app_widget_description">Ini adalah deskripsi app widget</string>
+    <string name="app_name">Pelacak Pelari</string>
+    <string name="appwidget_text">Rekam Track</string>
+    <string name="add_widget">Tambah Widget</string>
+    <string name="distance_run">Jarak Lari</string>
+    <string name="step">Total Langkah</string>
+    <string name="avg_speed">Kecepatan rata-rata</string>
+    <string name="duration">Durasi</string>
+    <string name="label_date">Pilih Tanggal</string>
+    <string name="title2">Lihat Track</string>
+    <string name="direction">Klik pada trek tertentu untuk menampilkan detailnya.</string>
+    <string name="ask">Rekam track lagi?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="start">Mulai Record Track</string>
+    <string name="label_widget">Rekam Track Anda Sekarang!</string>
+    <string name="action_language">Bahasa</string>
+    <string name="home">Home</string>
+    <string name="track">Track</string>
+    <string name="nameTrack">Track Yang Direkam</string>
+    <string name="dialog">Track Berhasil Di Rekam!</string>
+    <string name="ok">OKE</string>
+</resources>

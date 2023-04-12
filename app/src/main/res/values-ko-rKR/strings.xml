@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Runner Tracker</string>
+    <string name="first_fragment_label">첫 번째 조각</string>
+    <string name="second_fragment_label">두 번째 조각</string>
+    <string name="app_widget_description">이것은 앱 위젯 설명입니다.</string>
+    <string name="appwidget_text">트랙 기록</string>
+    <string name="add_widget">위젯 추가</string>
+    <string name="distance_run">거리 달리기</string>
+    <string name="step">총 단계</string>
+    <string name="avg_speed">평균 속도</string>
+    <string name="duration">기간</string>
+    <string name="label_date">날짜 선택</string>
+    <string name="title2">트랙 보기</string>
+    <string name="direction">특정 트랙을 클릭하면 세부 정보가 표시됩니다.</string>
+    <string name="ask">트랙을 다시 녹음 하시겠습니까?</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="start">트랙 녹화 시작</string>
+    <string name="label_widget">지금 트랙을 녹음하세요!</string>
+    <string name="action_language">언어</string>
+    <string name="home">언어</string>
+    <string name="track">언어</string>
+    <string name="nameTrack">녹음된 트랙</string>
+    <string name="dialog">트랙이 성공적으로 기록되었습니다!</string>
+    <string name="ok">오케이</string>
+</resources>

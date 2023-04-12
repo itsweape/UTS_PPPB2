@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_fragment_label">第一个片段</string>
+    <string name="second_fragment_label">第二个片段</string>
+    <string name="app_widget_description">这是一个应用程序小部件说明</string>
+    <string name="app_name">流道追踪器</string>
+    <string name="appwidget_text">记录曲目</string>
+    <string name="add_widget">添加小部件</string>
+    <string name="distance_run">长跑</string>
+    <string name="step">总步数</string>
+    <string name="avg_speed">平均速度</string>
+    <string name="duration">期间</string>
+    <string name="label_date">选择日期</string>
+    <string name="title2">查看曲目</string>
+    <string name="direction">单击特定曲目以显示详细信息。</string>
+    <string name="ask">再次录制曲目？</string>
+    <string name="yes">是的</string>
+    <string name="no">不</string>
+    <string name="start">开始记录跟踪</string>
+    <string name="label_widget">立即录制您的曲目！</string>
+    <string name="action_language">语言</string>
+    <string name="home">家</string>
+    <string name="track">跟踪</string>
+    <string name="nameTrack">录制曲目</string>
+    <string name="dialog">已成功录制曲目</string>
+    <string name="ok">还行</string>
+</resources>

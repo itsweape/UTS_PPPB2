@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecordTrack"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_layout"
+        android:backgroundTint="@color/colorBase"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/one">
+
+        <LinearLayout
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/base_layout"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/distanceText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.00 KM"
+                android:textSize="50sp"
+                android:textAlignment="center"
+                android:layout_marginTop="70dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/step"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/distance_run"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                app:layout_constraintEnd_toEndOf="@+id/first"
+                app:layout_constraintStart_toStartOf="@+id/first"
+                app:layout_constraintTop_toBottomOf="@+id/distanceText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/base_layout"
+            android:backgroundTint="@color/colorBase"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+                <TextView
+                    android:id="@+id/stepText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="0"
+                    android:layout_marginStart="35dp"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/avgSpeedText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="0.00 KM/H"
+                    android:layout_marginLeft="45dp"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/durationText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="00:00:00"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="center"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp">
+
+                <TextView
+                    android:id="@+id/distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/step"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/average"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/avg_speed"
+                    android:textAlignment="center"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="@string/duration"
+                    android:textAlignment="center"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="20dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/top"
+        android:background="@drawable/base_layout">
+
+        <ImageButton
+            android:id="@+id/startButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_play_circle_filled_24"
+            android:layout_weight="1"
+            android:onClick="onClickPlay"
+            android:background="@color/white"/>
+
+        <ImageButton
+            android:id="@+id/stopButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_stop_circle_24"
+            android:layout_weight="1"
+            android:onClick="onClickStop"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/colorPrimary"
+        app:itemTextColor="@drawable/selectorrr"
+        app:itemIconTint="@drawable/selectorrr"
+        app:menu="@menu/bottom_nav"
+        android:layout_alignParentBottom="true">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>
